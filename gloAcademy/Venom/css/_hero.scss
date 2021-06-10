@@ -1,0 +1,20 @@
+.hero {
+    &_text {
+        &__date {
+            display: block;
+            font-size: 24px;
+            line-height: 28px;
+            color: $date_color;
+            margin-bottom: 38px;
+        }
+        &__title {
+            margin-bottom: 40px;
+        }
+        &__description {
+            max-width: 423px;
+            font-size: 16px;
+            line-height: 140%;
+            color: $date_color;
+        }
+    }
+}

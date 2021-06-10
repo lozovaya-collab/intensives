@@ -7,6 +7,11 @@ body {
   color: white;
 }
 
+.wrapper {
+  max-width: 1140px;
+  margin: auto;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15,8 +20,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding-top: 40px;
-  max-width: 1140px;
-  margin: auto;
+  margin-bottom: 80px;
 }
 
 .header_logo {
@@ -40,5 +44,24 @@ body {
 .header_nav__menu_item-link {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
+}
+
+.hero_text__date {
+  display: block;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 38px;
+}
+
+.hero_text__title {
+  margin-bottom: 40px;
+}
+
+.hero_text__description {
+  max-width: 423px;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.8);
 }
 /*# sourceMappingURL=style.css.map */
