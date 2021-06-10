@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    max-width: 1140px;
+    margin: auto;
+    &_logo {
+        display: inline-block;
+        margin-right: 50px;
+    }
+    &_nav {
+        &__menu {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            &_item {
+                margin: 30px;
+                &-link {
+                    text-decoration: none;
+                    color: $link_color;
+                }
+            }
+        }
+    }
+}

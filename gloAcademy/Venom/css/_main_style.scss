@@ -1,0 +1,12 @@
+* {
+    // margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+$main_color_black: black;
+$main_color_white: white;
+$link_color: rgba(255, 255, 255, 0.5);
+body {
+    background-color: $main_color_black;
+    color: $main_color_white;
+}
