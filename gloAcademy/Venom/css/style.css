@@ -3,13 +3,22 @@
 }
 
 body {
-  background-color: black;
   color: white;
 }
 
 .wrapper {
   max-width: 1140px;
   margin: auto;
+}
+
+.Venom {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.blood {
+  background: url("../assets/images/blood.png") no-repeat top right, #14131a url("../assets/images/bg.jpg") no-repeat center center/100%;
 }
 
 .header {
@@ -63,5 +72,41 @@ body {
   font-size: 16px;
   line-height: 140%;
   color: rgba(255, 255, 255, 0.8);
+}
+
+.hero_buttons {
+  margin-top: 70px;
+}
+
+.hero_buttons__item {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.hero_buttons__item-text, .hero_buttons__item-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.hero_buttons__item-text {
+  font-size: 14px;
+  margin-left: 10px;
+  line-height: 16px;
+}
+
+.button-primary {
+  cursor: pointer;
+  background-color: white;
+  color: #8D0019;
+}
+
+.button-primary:hover {
+  background-color: rgba(255, 255, 255, 0.863);
+}
+
+.button-link {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

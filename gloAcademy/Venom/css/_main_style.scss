@@ -3,16 +3,26 @@
     font-family: 'Roboto', sans-serif;
 }
 
-$main_color_black: black;
+$main_color_black: #14131a;
 $main_color_white: white;
 $link_color: rgba(255, 255, 255, 0.5);
 $date_color: rgba(255, 255, 255, 0.8);
+$dark_red: #8D0019;
 body {
-    background-color: $main_color_black;
     color: $main_color_white;
 }
 
 .wrapper {
     max-width: 1140px;
     margin: auto;
+}
+
+.Venom {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.blood {
+    background: url('../assets/images/blood.png') no-repeat top right, $main_color_black url('../assets/images/bg.jpg') no-repeat center center / 100%;
 }
