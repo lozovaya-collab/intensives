@@ -26,3 +26,7 @@ body {
 .blood {
     background: url('../assets/images/blood.png') no-repeat top right, $main_color_black url('../assets/images/bg.jpg') no-repeat center center / 100%;
 }
+
+.no-blood {
+    background: $main_color_black url('../assets/images/bg.jpg') no-repeat center center / 100%;
+}
