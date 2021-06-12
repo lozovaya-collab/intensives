@@ -1,7 +1,7 @@
 * {
   font-family: 'Roboto', sans-serif;
-  -webkit-transition: all 1s ease-in;
-  transition: all 1s ease-in;
+  -webkit-transition: all 0.7s ease-in;
+  transition: all 0.7s ease-in;
 }
 
 body {
