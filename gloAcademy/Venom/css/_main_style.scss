@@ -1,6 +1,7 @@
 * {
     // margin: 0 auto;
     font-family: 'Roboto', sans-serif;
+    transition: all 1s ease-in;
 }
 
 $main_color_black: #14131a;
@@ -62,7 +63,8 @@ body {
         position: absolute;
         width: 100%;
         height: 100%;
-        display: none;
+        display: flex;
+        right: -100%;
         flex-direction: column;
         align-items: center;
         background-color: $main_color_white;
