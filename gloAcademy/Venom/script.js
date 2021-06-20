@@ -7,12 +7,14 @@ let isOpen = false
 const openBurger = () => {
     if (!isOpen) {
         burger.style.right = '0'
+        burger.style.display = 'block'
         isOpen = true
     }
 }
 const closeBurger = () => {
     if (isOpen) {
         burger.style.right = '-100%'
+        burger.style.display = 'none'
         isOpen = false
     }
 }
